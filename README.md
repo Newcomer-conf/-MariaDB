@@ -163,7 +163,8 @@ INSERT INTO actions (client_id, action_type, result, open_ports, event_time, eve
 SELECT * FROM clients;
 ```
 
-``` Результат:
+Результат:
+``` 
 MariaDB [network_db]> SELECT * FROM clients;
 +----+------------+---------------+-------------+---------------------+---------------------+-------------------+
 | id | ip_address | netmask       | gateway     | date_created        | date_assigned       | mac_address       |
