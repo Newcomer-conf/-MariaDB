@@ -23,12 +23,10 @@ passwd suadmin
 
 Настройка привилегий для пользователей suadmin и root:
 ```
-echo "suadmin ALL=(ALL:ALL) NOPASSWD: ALL" >> /etc/sudoers
-echo "root ALL=(ALL:ALL) NOPASSWD: ALL" >> /etc/sudoers
 echo "suadmin ALL=(ALL:ALL) ALL" >> /etc/sudoers
 echo "root ALL=(ALL:ALL) ALL" >> /etc/sudoers
 ```
-Добавляет в файл /etc/sudoers правила, позволяющие пользователям suadmin и root выполнять команды без запроса пароля.
+Добавляет в файл /etc/sudoers правила.
 
 Выход из режима суперпользователя:
 ```
